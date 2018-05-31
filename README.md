@@ -73,11 +73,11 @@ Use a `GET /items/[id]`request to get a singe item with the desired _[id]_. This
 
 #### Inserting items
 
-A `POST /items/[id]` request will insert a new item in the desired _[id]_ position. You must replace the variable with the id you want, and use a JSON string as the body of the request. See the [Item structure - JSON example][#item-structure-json-example] section for an example.
+A `POST /items/[id]` request will insert a new item in the desired _[id]_ position. You must replace the variable with the id you want, and use a JSON string as the body of the request. See the [Item structure - JSON example][#item-structure---json-example] section for an example.
 
 #### Updating items
 
-A `PUT /items/[id]` request will update an item in the desired _[id]_ position. You must replace the variable with the id you want, and use a JSON string as the body of the request. See the [Item structure - JSON example][#item-structure-json-example] section for an example.
+A `PUT /items/[id]` request will update an item in the desired _[id]_ position. You must replace the variable with the id you want, and use a JSON string as the body of the request. See the [Item structure - JSON example][#item-structure---json-example] section for an example.
 
 #### Deleting items
 

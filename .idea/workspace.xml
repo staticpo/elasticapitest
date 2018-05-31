@@ -2,41 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6aecb2d-c6db-45d0-aa69-6032e70bc336" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticapitest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/ElasticApiTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/ItemException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/Items.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/Pictures.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/StandardResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/StatusResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/models/elasticInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/models/elasticOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/slf4j-simple-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spark/template/velocity/response.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/spark/template/velocity/singleresult.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/controllers/ElasticApiTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/controllers/ItemException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/controllers/Items.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/controllers/Pictures.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/controllers/StandardResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/controllers/StatusResponse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/models/elasticInterface.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/models/elasticOperations$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mercadolibre/itaccelerator/elasticapitest/models/elasticOperations.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/log4j2.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/slf4j-simple-1.7.25.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spark/template/velocity/response.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/spark/template/velocity/singleresult.vm" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AppTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,7 +33,7 @@
       <file leaf-file-name="ElasticApiTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/ElasticApiTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1809">
+            <state relative-caret-position="-472">
               <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
               <folding>
                 <element signature="e#1400#1416#0" expanded="true" />
@@ -135,8 +102,8 @@
       <file leaf-file-name="AppTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+            <state relative-caret-position="-168">
+              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
@@ -336,7 +303,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AppTest.testAddingItem">
+  <component name="RunManager" selected="JUnit.AppTest.invalidItemId">
     <configuration name="ElasticApiTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mercadolibre.itaccelerator.elasticapitest.controllers.ElasticApiTest" />
       <module name="elasticapitest" />
@@ -351,14 +318,14 @@
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="AppTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AppTest.invalidItemId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="elasticapitest" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="invalidItemId" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -375,6 +342,23 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="AppTest" />
       <option name="METHOD_NAME" value="testAddingItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AppTest.testUpdatingItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="elasticapitest" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="AppTest" />
+      <option name="METHOD_NAME" value="testUpdatingItem" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -442,14 +426,16 @@
     </configuration>
     <list>
       <item itemvalue="Application.ElasticApiTest" />
-      <item itemvalue="JUnit.AppTest" />
       <item itemvalue="JUnit.AppTest.testAddingItem" />
       <item itemvalue="JUnit.AppTest.validItemId" />
+      <item itemvalue="JUnit.AppTest.testUpdatingItem" />
+      <item itemvalue="JUnit.AppTest.invalidItemId" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AppTest.invalidItemId" />
+        <item itemvalue="JUnit.AppTest.testUpdatingItem" />
         <item itemvalue="JUnit.AppTest.testAddingItem" />
-        <item itemvalue="JUnit.AppTest" />
         <item itemvalue="JUnit.AppTest.validItemId" />
         <item itemvalue="Application.ElasticApiTest" />
       </list>
@@ -473,44 +459,44 @@
       <workItem from="1527509201607" duration="23802000" />
       <workItem from="1527601120860" duration="6611000" />
       <workItem from="1527635759591" duration="20649000" />
-      <workItem from="1527768461828" duration="6199000" />
+      <workItem from="1527768461828" duration="8102000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppTest - 2018.05.30 at 09h 16m 07s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testUpdatingItem - 2018.05.31 at 19h 13m 21s.xml">
+      <configuration name="AppTest.testUpdatingItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.05.30 at 15h 53m 43s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testUpdatingItem - 2018.05.31 at 19h 15m 11s.xml">
+      <configuration name="AppTest.testUpdatingItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.05.31 at 16h 55m 40s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testUpdatingItem - 2018.05.31 at 19h 18m 07s.xml">
+      <configuration name="AppTest.testUpdatingItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.05.31 at 16h 56m 42s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testUpdatingItem - 2018.05.31 at 19h 19m 10s.xml">
+      <configuration name="AppTest.testUpdatingItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.05.31 at 17h 06m 23s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testUpdatingItem - 2018.05.31 at 19h 19m 41s.xml">
+      <configuration name="AppTest.testUpdatingItem" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.05.31 at 17h 06m 54s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testAddingItem - 2018.05.31 at 17h 21m 00s.xml">
-      <configuration name="AppTest.testAddingItem" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_testAddingItem - 2018.05.31 at 17h 22m 13s.xml">
-      <configuration name="AppTest.testAddingItem" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AppTest_validItemId - 2018.05.31 at 17h 27m 16s.xml">
+    <history-entry file="AppTest_validItemId - 2018.05.31 at 19h 23m 30s.xml">
       <configuration name="AppTest.validItemId" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AppTest - 2018.05.31 at 17h 34m 23s.xml">
-      <configuration name="AppTest" configurationId="JUnit" />
+    <history-entry file="AppTest_testUpdatingItem - 2018.05.31 at 19h 25m 18s.xml">
+      <configuration name="AppTest.testUpdatingItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testAddingItem - 2018.05.31 at 19h 27m 29s.xml">
+      <configuration name="AppTest.testAddingItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_testUpdatingItem - 2018.05.31 at 19h 35m 30s.xml">
+      <configuration name="AppTest.testUpdatingItem" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AppTest_invalidItemId - 2018.05.31 at 19h 39m 11s.xml">
+      <configuration name="AppTest.invalidItemId" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81264000" />
+    <option name="totallyTimeSpent" value="83167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="0" />
@@ -953,17 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/ElasticApiTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1809">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
-          <folding>
-            <element signature="e#1400#1416#0" expanded="true" />
-            <element signature="e#2387#2403#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/Pictures.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -986,10 +961,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/ElasticApiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-472">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          <folding>
+            <element signature="e#1400#1416#0" expanded="true" />
+            <element signature="e#2387#2403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AppTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="73" column="41" selection-start-line="73" selection-start-column="41" selection-end-line="73" selection-end-column="41" />
+        <state relative-caret-position="-168">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />

@@ -30,22 +30,10 @@ public class AppTest {
     @Test
     public void invalidItemId() {
         given().when().get("/items/9999NONEXISTANTID9999")
-                .then().statusCode(404);
+                .then().statusCode(200)
+                .body("hits.total", equalTo(0));
     }
-
-/*
-    @Test
-    public void verifyNameOfGarage() {
-        given().when().get("/garage").then()
-                .body(containsString("Acme garage"));
-    }
-
-    @Test
-    public void verifyNameStructured() {
-        given().when().get("/garage").then()
-                .body("name",equalTo("Acme garage"));
-    }
-*/
+    
 
     //Test - add an item with id = 1000TEST
     @Test
@@ -71,8 +59,9 @@ public class AppTest {
         given()
                 .contentType("application/json")
                 .body(item)
-                .when().post("/items/1001TEST").then()
-                .statusCode(200);
+                .when().post("/items/1002TEST").then()
+                .statusCode(200)
+                .body("status", equalTo("SUCCESS"));
     }
 
     //Test if the item exists
@@ -86,25 +75,25 @@ public class AppTest {
     @Test
     public void testUpdatingItem() {
 
-        Map<String,String> item = new HashMap<>();
-        item.put("title", "This is the new title for the item"); //changed the title
-        item.put("category_id", "MLA5529");
-        item.put("price", "10");
-        item.put("currency_id", "ARS");
-        item.put("available_quantity", "1");
-        item.put("buying_mode", "buy_it_now");
-        item.put("listing_type_id", "bronze");
-        item.put("condition", "new");
-        item.put("description", "Item:,  Ray-Ban WAYFARER Gloss Black RB2140 901  Model: RB2140. Size: 50mm. Name: WAYFARER. Color: Gloss Black. Includes Ray-Ban itemrying Case and Cleaning Cloth. New in Box");
-        item.put("video_id", "YOUTUBE_ID_HERE");
-        item.put("warranty", "12 months by Ray Ban");
+        Items item = new Items();
+        item.setTitle("This is the new title for the item"); //changed the title
+        item.setCategory_id("MLA5529");
+        item.setPrice(BigDecimal.TEN);
+        item.setCurrency_id("ARS");
+        item.setAvailable_quantity(1);
+        item.setBuying_mode("buy_it_now11");
+        item.setListing_type_id("bronze");
+        item.setCondition("new");
+        item.setDescription("Item:,  Ray-Ban WAYFARER Gloss Black RB2140 901  Model: RB2140. Size: 50mm. Name: WAYFARER. Color: Gloss Black. Includes Ray-Ban itemrying Case and Cleaning Cloth. New in Box");
+        item.setVideo_id("YOUTUBE_ID_HERE");
+        item.setWarranty("12 months by Ray Ban");
 
 
         given()
                 .contentType("application/json")
                 .body(item)
-                .when().put("/items/1000TEST").then()
-                .body("title", equalTo("This is the new title for the item"));
+                .when().put("/items/1001TEST").then()
+                .body("status", equalTo("SUCCESS"));
     }
 
 
