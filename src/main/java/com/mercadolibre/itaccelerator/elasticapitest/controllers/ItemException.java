@@ -1,0 +1,14 @@
+package com.mercadolibre.itaccelerator.elasticapitest.controllers;
+
+@SuppressWarnings("serial")
+public class ItemException extends Exception {
+
+	public ItemException() {
+        super();
+    }
+
+    public ItemException(String message) {
+        super(message);
+    }
+
+}

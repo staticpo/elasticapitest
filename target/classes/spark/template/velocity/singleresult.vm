@@ -1,0 +1,28 @@
+<style>
+    pre {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        overflow: auto;
+        overflow-y: hidden;
+        font-size: 12px;
+        line-height: 20px;
+        background: #efefef;
+        border: 1px solid #777;
+        background: url(lines.png) repeat 0 0;
+        padding: 10px;
+        color: #333;
+        white-space: normal;
+    }
+</style>
+
+
+<h1>Result</h1>
+<p>$status</p>
+
+<h2>Full Response</h2>
+<pre>
+    $json
+</pre>
+

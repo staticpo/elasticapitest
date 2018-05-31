@@ -1,0 +1,18 @@
+package com.mercadolibre.itaccelerator.elasticapitest.controllers;
+
+public class Pictures {
+
+    private String source;
+
+    public Pictures(String source) {
+        this.source = source;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
+    }
+}
