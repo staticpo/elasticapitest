@@ -18,7 +18,7 @@
 </style>
 
 
-<h1>Result</h1>
+<h1>Result - ELASTIC API TEST</h1>
 <p>$status</p>
 
 <h2>Full Response</h2>
@@ -26,3 +26,5 @@
     $json
 </pre>
 
+
+<p>This template could be made to look prettier, if I had more time.</p>

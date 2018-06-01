@@ -4,17 +4,11 @@ import com.jayway.restassured.response.ResponseBody;
 import com.jayway.restassured.specification.RequestSpecification;
 import com.mercadolibre.itaccelerator.elasticapitest.controllers.Items;
 import com.mercadolibre.itaccelerator.elasticapitest.controllers.Pictures;
-import org.elasticsearch.action.get.MultiGetRequest;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;
-import java.util.HashMap;
-import java.util.Map;
 
-import static com.jayway.restassured.RestAssured.get;
 import static com.jayway.restassured.RestAssured.given;
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.equalTo;
 
 public class AppTest {
@@ -33,7 +27,7 @@ public class AppTest {
                 .then().statusCode(200)
                 .body("hits.total", equalTo(0));
     }
-    
+
 
     //Test - add an item with id = 1000TEST
     @Test
@@ -54,7 +48,6 @@ public class AppTest {
         item.setDescription("Item:,  Ray-Ban WAYFARER Gloss Black RB2140 901  Model: RB2140. Size: 50mm. Name: WAYFARER. Color: Gloss Black. Includes Ray-Ban itemrying Case and Cleaning Cloth. New in Box");
         item.setVideo_id("YOUTUBE_ID_HERE");
         item.setWarranty("12 months by Ray Ban");
-        //item.setPictures(pic1, pic2);
 
         given()
                 .contentType("application/json")
