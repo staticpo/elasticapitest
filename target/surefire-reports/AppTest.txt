@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: AppTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 1.833 sec <<< FAILURE!
-validItemId(AppTest)  Time elapsed: 1.42 sec  <<< ERROR!
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 2.095 sec <<< FAILURE!
+validItemId(AppTest)  Time elapsed: 1.659 sec  <<< ERROR!
 java.net.ConnectException: Connection refused (Connection refused)
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
@@ -123,7 +123,7 @@ java.net.ConnectException: Connection refused (Connection refused)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-basicPingTest(AppTest)  Time elapsed: 0.037 sec  <<< ERROR!
+basicPingTest(AppTest)  Time elapsed: 0.024 sec  <<< ERROR!
 java.net.ConnectException: Connection refused (Connection refused)
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
@@ -228,7 +228,7 @@ java.net.ConnectException: Connection refused (Connection refused)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-invalidItemId(AppTest)  Time elapsed: 0.041 sec  <<< ERROR!
+invalidItemId(AppTest)  Time elapsed: 0.026 sec  <<< ERROR!
 java.net.ConnectException: Connection refused (Connection refused)
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
@@ -333,7 +333,7 @@ java.net.ConnectException: Connection refused (Connection refused)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testUpdatingItem(AppTest)  Time elapsed: 0.205 sec  <<< ERROR!
+testUpdatingItem(AppTest)  Time elapsed: 0.2 sec  <<< ERROR!
 java.net.ConnectException: Connection refused (Connection refused)
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
@@ -442,7 +442,7 @@ java.net.ConnectException: Connection refused (Connection refused)
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-testAddingItem(AppTest)  Time elapsed: 0.056 sec  <<< ERROR!
+testAddingItem(AppTest)  Time elapsed: 0.054 sec  <<< ERROR!
 java.net.ConnectException: Connection refused (Connection refused)
 	at java.net.PlainSocketImpl.socketConnect(Native Method)
 	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
