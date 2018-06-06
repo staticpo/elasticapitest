@@ -1,0 +1,9 @@
+com/mercadolibre/itaccelerator/elasticapitest/controllers/Items.class
+com/mercadolibre/itaccelerator/elasticapitest/models/elasticInterface.class
+com/mercadolibre/itaccelerator/elasticapitest/controllers/Pictures.class
+com/mercadolibre/itaccelerator/elasticapitest/models/elasticOperations$1.class
+com/mercadolibre/itaccelerator/elasticapitest/controllers/ItemException.class
+com/mercadolibre/itaccelerator/elasticapitest/controllers/StandardResponse.class
+com/mercadolibre/itaccelerator/elasticapitest/controllers/ElasticApiTest.class
+com/mercadolibre/itaccelerator/elasticapitest/controllers/StatusResponse.class
+com/mercadolibre/itaccelerator/elasticapitest/models/elasticOperations.class

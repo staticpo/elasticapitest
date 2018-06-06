@@ -1,0 +1,8 @@
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/StandardResponse.java
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/models/elasticOperations.java
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/StatusResponse.java
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/ItemException.java
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/Items.java
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/models/elasticInterface.java
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/Pictures.java
+/usr/src/mymaven/src/main/java/com/mercadolibre/itaccelerator/elasticapitest/controllers/ElasticApiTest.java
